@@ -208,7 +208,7 @@ bindsym $mod+Mod1+r exec "reboot"
 bindsym $mod+shift+i exec "i3-sensible-terminal -e vim .config/i3/config & i3-sensible-terminal -e vim .config/polybar/config"
 
 exec_always "setxkbmap -layout us,th && setxkbmap -option 'grp:alt_shift_toggle'"
-exec_always "feh --bg-scale ~/Pictures/andrew-svk-150fZ07GQqs-unsplash.jpg"
+exec_always "feh --bg-scale ~/.config/i3/andrew-svk-150fZ07GQqs-unsplash.jpg"
 exec_always "/usr/lib/polkit-kde-authentication-agent-1"
 exec "touchpad-indicator"
 exec "DRI_PRIME=1 brave %U"
